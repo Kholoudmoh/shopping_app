@@ -18,7 +18,7 @@ class ProductCard extends StatefulWidget {
 }
 
 class _ProductCardState extends State<ProductCard> {
-  bool isFavorited = false; // ✅ أضفنا المتغير هنا
+  bool isFavorited = false; 
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +38,7 @@ class _ProductCardState extends State<ProductCard> {
       ),
       child: Row(
         children: [
-          // صورة المنتج
+         
           ClipRRect(
             borderRadius: BorderRadius.circular(12),
             child: Image.asset(
@@ -50,7 +50,7 @@ class _ProductCardState extends State<ProductCard> {
           ),
           const SizedBox(width: 12),
 
-          // معلومات المنتج + زر
+         
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
